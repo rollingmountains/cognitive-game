@@ -327,7 +327,7 @@ p4a.branch = develop
 #p4a.commit = HEAD
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
-p4a.source_dir = https://github.com/kivy/python-for-android/archive/develop.zip
+#p4a.source_dir = https://github.com/kivy/python-for-android/archive/develop.zip
 
 # (str) The directory in which python-for-android should look for your own build recipes (if any)
 #p4a.local_recipes =
