@@ -7,6 +7,9 @@ package.domain = org.rollingmountains
 source.dir = .
 source.include_exts = py,json
 
+# [app] section
+android.release_artifact = apk
+
 # Version
 version = 0.1
 
