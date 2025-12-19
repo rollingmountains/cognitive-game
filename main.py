@@ -16,7 +16,7 @@ Window.size = (360, 640)
 class QuoteApp(App):
     def build(self):
         # URL to your quotes JSON file (replace with your actual URL)
-        self.quotes_url = "https://github.com/rollingmountains/cognitive-game/blob/main/quotes.json"
+        self.quotes_url = "https://raw.githubusercontent.com/rollingmountains/cognitive-game/refs/heads/main/quotes.json"
 
         # Local storage for caching quotes and tracking seen quotes
         self.store = JsonStore('quoteapp_data.json')
