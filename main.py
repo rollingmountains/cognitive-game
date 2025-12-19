@@ -144,7 +144,7 @@ class QuoteApp(App):
         self.store.put('seen_ids', ids=list(self.seen_ids))
 
         # Format and display quote
-        quote_text = f'"{quote_obj["text"]}"\n\n— {quote_obj["author"]}'
+        quote_text = f'"{quote_obj["text"]}'
         self.quote_label.text = quote_text
 
         # Adjust label height based on text
