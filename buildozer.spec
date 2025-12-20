@@ -8,6 +8,11 @@ source.dir = .
 source.include_exts = py,json
 
 # [app] section
+# Build APK instead of AAB
+android.accept_sdk_license = True
+android.billing_license = True
+
+# Specify APK output explicitly
 android.release_artifact = apk
 
 # Version
